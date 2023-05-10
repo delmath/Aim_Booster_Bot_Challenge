@@ -1,0 +1,16 @@
+#   Bot AimBooster
+petit challenge python de faire un bot pour aim booster online 
+avec le moin de ligne possible
+
+objectif : 
+
+    - target detection : OK
+    - click sur les target : OK
+    - choix de la zone : OK
+    - quit possible : OK
+
+instalation des dependence :
+
+    - pyautogui : pip install pyautogui
+    - keyboard : pip install keyboard
+    - pywin32 : pip install pywin32

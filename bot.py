@@ -2,7 +2,6 @@ from pyautogui import *
 import pyautogui
 import time
 import keyboard
-import win32api, win32con
 
 print('Cliquer sur q pour arrêter le bot')
 print('Veuillez cliquer dans le coin supérieur de la région de capture... (a pour valider)')
@@ -11,7 +10,7 @@ while True:
     if keyboard.is_pressed('q'):
         quit()
     if keyboard.is_pressed('a'):
-        x1, y1 = win32api.GetCursorPos()
+        x1, y1 = position()
         break
 
 print('Angle supérieur OK !')
@@ -22,7 +21,7 @@ while True:
     if keyboard.is_pressed('q'):
         quit()
     if keyboard.is_pressed('a'):
-        x2, y2 = win32api.GetCursorPos()
+        x2, y2 = position()
         break
 
 print('Angle inférieur OK!')
