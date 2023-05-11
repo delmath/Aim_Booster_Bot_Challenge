@@ -33,7 +33,7 @@ while keyboard.is_pressed('q') == False:
         for y in range(0, pic.height, 5):
             if pic.getpixel((x, y)) == (255, 219, 195):
                 pyautogui.click(x + x1, y + y1)
-                time.sleep(0.05)
+                time.sleep(0.05) # a modifier pour la rapidité du bot
                 break
         else:
             continue

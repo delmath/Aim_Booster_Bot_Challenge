@@ -1,3 +1,5 @@
+/!\ Projet plus update /!\
+
 #   Bot AimBooster
 petit challenge python de faire un bot pour aim booster online 
 avec le moin de ligne possible
@@ -8,10 +10,25 @@ objectif :
     - click sur les target : OK
     - choix de la zone : OK
     - quit possible : OK
-    - info sur l'ecran : A faire
+    - info sur l'ecran : OK
 
-instalation des dependence :
+instalation des dependences pour bot v1:
 
     - pyautogui : pip install pyautogui
     - keyboard : pip install keyboard
-    - pywin32 : pip install pywin32
+
+instalation des dependences pour le bot V2:
+
+    - pyautogui : pip install pyautogui
+    - keyboard : pip install keyboard
+    - tkinter : pip install tkinter
+
+utilisation : 
+   
+   Bot v1:
+    utiliser la touche 'a' pour set l'angle demander
+    utiliser la touche 'q' pour arreter le bot
+
+   Bot V2:
+    utiliser la touche 'a' pour set l'angle 1 et la touche 'z' pour l'angle 2
+    utiliser la touche 'p' pour arreter le bot
