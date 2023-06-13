@@ -4,14 +4,6 @@
 petit challenge python de faire un bot pour aim booster online 
 avec le moin de ligne possible
 
-objectif : 
-
-    - target detection : OK
-    - click sur les target : OK
-    - choix de la zone : OK
-    - quit possible : OK
-    - info sur l'ecran : OK
-
 instalation des dependences pour bot v1:
 
     - pyautogui : pip install pyautogui
