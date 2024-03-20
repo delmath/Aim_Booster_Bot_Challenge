@@ -1,9 +1,5 @@
 /!\ Projet plus update /!\
 
-#   Bot AimBooster
-petit challenge python de faire un bot pour aim booster online 
-avec le moin de ligne possible
-
 instalation des dependences pour bot v1:
 
     - pyautogui : pip install pyautogui
